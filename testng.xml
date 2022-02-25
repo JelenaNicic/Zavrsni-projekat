@@ -1,0 +1,9 @@
+<!--<suite name="ZavrsniProjekat" verbose="1" >
+  <test name="Tests" >
+    <classes>
+       <class name="tests.BasicTest" />
+       <class name="tests.MealItemTest" />
+       <class name="tests.ProfileTest" />
+    </classes>
+  </test>
+</suite>-->

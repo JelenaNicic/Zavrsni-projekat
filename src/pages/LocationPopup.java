@@ -39,8 +39,9 @@ public class LocationPopup extends BasicPage{
 		public void clickLocationPopUp() {
 			getLocationButton().click();
 		}
+		
 
-		public void chooseLocation(String locationName) throws InterruptedException {
+	public void chooseLocation(String locationName) throws InterruptedException {
 			getKeyword().click();
 			String value = getLocationItem(locationName).getAttribute("data-value");
 			js.executeScript("arguments[0].value=arguments[1];", getLocationInput(), value);
